@@ -1,0 +1,20 @@
+// Subtle zoom and pan effect for hero image
+const img = document.getElementById('main-hero');
+let scale = 1.12;
+let offsetX = 0;
+let offsetY = 0;
+let direction = 1;
+
+function animateHero() {
+  // Slowly zoom out and pan right and down just a touch
+  scale -= 0.00027 * direction;
+  offsetX += 0.012 * direction;
+  offsetY += 0.006 * direction;
+  if (scale <= 1.09 || scale >= 1.12) {
+    direction *= -1;
+  }
+  img.style.transform = `scale(${scale}) translate(${offsetX}px, ${offsetY}px)`;
+  requestAnimationFrame(animateHero);
+}
+
+animateHero();

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>KAZUKI YAMAKAWA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="site-title">KAZUKI YAMAKAWA</div>
+    <nav>
+      <a href="writing.html">Writing</a>
+      <a href="music.html">Music</a>
+      <a href="comics.html">Comics</a>
+    </nav>
+  </header>
+  <main>
+    <div class="hero-container">
+      <div class="hero-image">
+        <!-- Replace the src with your own illustration when ready! -->
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80" alt="Japanese city street, summer 1979, kids" id="main-hero">
+        <div class="hero-overlay">
+          <h1 class="magazine-title">Summer Streets - 1979</h1>
+          <p class="magazine-subtitle">A Story of Childhood Adventure</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="footer-content">
+      <span>Contact: <em>Coming soon</em></span>
+    </div>
+  </footer>
+  <script src="hero-animate.js"></script>
+</body>
+</html>
